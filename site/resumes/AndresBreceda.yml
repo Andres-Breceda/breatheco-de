@@ -1,0 +1,187 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andres 
+    last_name: Breceda
+    
+    # Define yourself in 4-5 words
+    motto: I wonder how big is the universe
+    
+    # Focus
+    focus: Programing skills and church
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hello to everyone . I am an honest and responsible professional with the ability to apply my knowledge to the workplace. 
+      Besides I have a fascination for automation and data science. In constrast I`m looking for something new. Work, Experiences,
+      People, You know what I am saying, it is a plesure
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/photo/AF1QipOBblM6OjagZs1lKVVdcG0hX7X5_wBgsepLl0Am
+
+    # Contact Information
+    email: andrewwine97@gmail.com #optional
+    phone: 669 ······· #optional
+    website:           #optional
+    linkedin: Andres Breceda Peraza #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andresbreceda
+    
+    twitter: ' ' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Surfing
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor degree in Electronic engineer
+      university: Institut Tecnologic of mazatlan
+      # optional
+      university_logo: https://www.google.com/search?q=Institut+Tecnologic+of+mazatlan+&sca_esv=d1b5b4900a6ad200&udm=2&biw=1396&bih=719&sxsrf=AHTn8zqi7f8eSt4DYCsbJU5yos33v6OYWg%3A1741323670048&ei=ln3KZ-2qAtuhwN4PuMOo-Qg&ved=0ahUKEwjtzaqWmPeLAxXbENAFHbghKo8Q4dUDCBE&uact=5&oq=Institut+Tecnologic+of+mazatlan+&gs_lp=EgNpbWciIEluc3RpdHV0IFRlY25vbG9naWMgb2YgbWF6YXRsYW4gMgcQIxgnGMkCSK4IULgCWMMGcAF4AJABAJgBZ6AB_gKqAQMzLjG4AQPIAQD4AQGYAgSgApIDmAMAiAYBkgcDMi4yoAfgCQ&sclient=img#vhid=7HvKG0Kh_AqZyM&vssid=mosaic
+      time: 2017 - 20123
+      details: |
+         I studied electronic engineer for 4 years at Institut Tecnologic of mazatlan.
+         I am a professional with knowledge in electronics, telecommunications and power electronics, with an interest in data science.
+          - Bullet point
+          - Bullet point
+
+    - degree: Cambridge PET certificate
+      university: UAS University
+      # optional
+      university_logo: https://www.google.com/search?q=uas&sca_esv=d1b5b4900a6ad200&udm=2&biw=1396&bih=719&sxsrf=AHTn8zqesy160gZueyjVAAdcs54sE6O1Rg%3A1741324060506&ei=HH_KZ6jOHpC0wN4PzdyhoQs&ved=0ahUKEwiozMLQmfeLAxUQGtAFHU1uKLQQ4dUDCBE&uact=5&oq=uas&gs_lp=EgNpbWciA3VhczIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMggQABiABBixAzILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgARI-glQiAZY2AhwA3gAkAEAmAGBAaAB9AKqAQMwLjO4AQPIAQD4AQGYAgagAq4DwgIGEAAYBxgewgIQEAAYgAQYsQMYQxiDARiKBcICChAAGIAEGEMYigXCAgcQIxgnGMkCmAMAiAYBkgcDMy4zoAeuEQ&sclient=img#vhid=X4f0qVhTNMnGtM&vssid=mosaic
+      time: 2018 - 2020
+      details: |
+       
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: pre-sales engineer
+      time: 2023 - 2025
+      company: MEGA, Mexico
+      # optional
+      company_logo: https://inversionistas.megacable.com.mx/
+      details: |
+        Presales engineer, provided support to the commercial area in response to
+        dedicated link projects, in addition to providing solutions to connectivity
+        requests proposed by clients, and to project requirements.
+
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 80%
+
+      - name: JavaScript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 80%
